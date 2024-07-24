@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: displaying the message from myapp2
-        run: echo "Hello Dharshik"
+        run: echo "Hello Dharshik Reddy"
