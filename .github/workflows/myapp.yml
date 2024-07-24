@@ -1,1 +1,8 @@
-
+name: myfirstapp_cts
+on: push
+jobs:
+  payment_app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing the message
+        run: echo "Hello Karthik"
