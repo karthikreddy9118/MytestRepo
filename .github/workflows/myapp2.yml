@@ -1,8 +1,8 @@
-name: myapp2
-on: push
+name: customized app
+on: pull_request
 jobs:
-  payment_gateway:
+  payment_app:
     runs-on: ubuntu-latest
     steps:
-      - name: displaying the message from myapp2
-        run: echo "Hello Dharshik Reddy"
+      - name: print the message
+        run: echo "Hello Dharshik Sir"
