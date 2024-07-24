@@ -9,4 +9,5 @@ jobs:
         with:
           sparse-checkout: |
             .github
-            src
+            Test1
+            Test2
