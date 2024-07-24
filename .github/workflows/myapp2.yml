@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: fetching the github code
         uses: actions/checkout@v4
+      - name: install nodejs
+        uses: actions/setup-node@v4setup-node@v4
         with:
-          sparse-checkout: |
-            .github
-            Test1
-            Test2
+          node-version: 18
+      
