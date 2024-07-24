@@ -1,8 +1,8 @@
-name: customized app
-on: pull_request
+name: my_app
+on: push
 jobs:
   payment_app:
     runs-on: ubuntu-latest
     steps:
-      - name: print the message
-        run: echo "Hello Dharshik Sir"
+      - name: fetching the github code
+        uses: action/checkout@v4
