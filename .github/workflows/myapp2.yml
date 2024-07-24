@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: fetching the github code
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            src
